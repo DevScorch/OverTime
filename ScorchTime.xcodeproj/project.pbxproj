@@ -3,19 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04193BBF25DC8C8B0017298B /* Jobs+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04193BBD25DC8C8B0017298B /* Jobs+CoreDataClass.swift */; };
+		04193BC025DC8C8B0017298B /* Jobs+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04193BBE25DC8C8B0017298B /* Jobs+CoreDataProperties.swift */; };
+		04193BC925DD83960017298B /* PersonalInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04193BC825DD83960017298B /* PersonalInformationView.swift */; };
 		0455BEA125DB591D00279199 /* ScorchTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455BEA025DB591D00279199 /* ScorchTimeApp.swift */; };
 		0455BEA325DB591D00279199 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455BEA225DB591D00279199 /* ContentView.swift */; };
 		0455BEA525DB592000279199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0455BEA425DB592000279199 /* Assets.xcassets */; };
 		0455BEA825DB592000279199 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0455BEA725DB592000279199 /* Preview Assets.xcassets */; };
 		0455BEAA25DB592000279199 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455BEA925DB592000279199 /* Persistence.swift */; };
 		0455BEAD25DB592000279199 /* ScorchTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0455BEAB25DB592000279199 /* ScorchTime.xcdatamodeld */; };
+		0455BEB725DB594200279199 /* ElegantCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 0455BEB625DB594200279199 /* ElegantCalendar */; };
+		0455BEBD25DB59CD00279199 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455BEBC25DB59CD00279199 /* DashboardView.swift */; };
+		0455BEC025DB59EB00279199 /* AgendaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455BEBF25DB59EB00279199 /* AgendaView.swift */; };
+		0455BEC325DB5A1900279199 /* InvoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455BEC225DB5A1900279199 /* InvoiceView.swift */; };
+		0455BEC625DB5A2000279199 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455BEC525DB5A2000279199 /* TimerView.swift */; };
+		0455BEC925DB5A2800279199 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455BEC825DB5A2800279199 /* SettingsView.swift */; };
+		0455BECC25DB5A7100279199 /* AddJobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455BECB25DB5A7100279199 /* AddJobView.swift */; };
+		0455BEE025DC4F8200279199 /* CreateTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455BEDF25DC4F8200279199 /* CreateTimerView.swift */; };
+		0455BEEA25DC537000279199 /* Timers+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455BEE825DC537000279199 /* Timers+CoreDataClass.swift */; };
+		0455BEEB25DC537000279199 /* Timers+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455BEE925DC537000279199 /* Timers+CoreDataProperties.swift */; };
+		04BAAAF925DFD80C00481C84 /* FinancialInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BAAAF825DFD80C00481C84 /* FinancialInformationView.swift */; };
+		04D331D025E0A7A4009BE6A4 /* PrivacyInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D331CF25E0A7A4009BE6A4 /* PrivacyInformationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04193BBD25DC8C8B0017298B /* Jobs+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jobs+CoreDataClass.swift"; sourceTree = "<group>"; };
+		04193BBE25DC8C8B0017298B /* Jobs+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jobs+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		04193BC825DD83960017298B /* PersonalInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInformationView.swift; sourceTree = "<group>"; };
 		0455BE9D25DB591D00279199 /* ScorchTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScorchTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0455BEA025DB591D00279199 /* ScorchTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorchTimeApp.swift; sourceTree = "<group>"; };
 		0455BEA225DB591D00279199 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +42,18 @@
 		0455BEA925DB592000279199 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0455BEAC25DB592000279199 /* ScorchTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScorchTime.xcdatamodel; sourceTree = "<group>"; };
 		0455BEAE25DB592000279199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0455BEBC25DB59CD00279199 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		0455BEBF25DB59EB00279199 /* AgendaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaView.swift; sourceTree = "<group>"; };
+		0455BEC225DB5A1900279199 /* InvoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceView.swift; sourceTree = "<group>"; };
+		0455BEC525DB5A2000279199 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		0455BEC825DB5A2800279199 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0455BECB25DB5A7100279199 /* AddJobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJobView.swift; sourceTree = "<group>"; };
+		0455BEDF25DC4F8200279199 /* CreateTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTimerView.swift; sourceTree = "<group>"; };
+		0455BEE825DC537000279199 /* Timers+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timers+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0455BEE925DC537000279199 /* Timers+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timers+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		04BAAAF625DDBC3B00481C84 /* ScorchTime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScorchTime.entitlements; sourceTree = "<group>"; };
+		04BAAAF825DFD80C00481C84 /* FinancialInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialInformationView.swift; sourceTree = "<group>"; };
+		04D331CF25E0A7A4009BE6A4 /* PrivacyInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyInformationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +61,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0455BEB725DB594200279199 /* ElegantCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04193BC225DC8C990017298B /* CoreData Class */ = {
+			isa = PBXGroup;
+			children = (
+				04193BBD25DC8C8B0017298B /* Jobs+CoreDataClass.swift */,
+				0455BEE825DC537000279199 /* Timers+CoreDataClass.swift */,
+			);
+			path = "CoreData Class";
+			sourceTree = "<group>";
+		};
+		04193BC325DC8CAB0017298B /* Core Data Properties */ = {
+			isa = PBXGroup;
+			children = (
+				04193BBE25DC8C8B0017298B /* Jobs+CoreDataProperties.swift */,
+				0455BEE925DC537000279199 /* Timers+CoreDataProperties.swift */,
+			);
+			path = "Core Data Properties";
+			sourceTree = "<group>";
+		};
+		04193BC425DC8CC00017298B /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				0455BEA925DB592000279199 /* Persistence.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
 		0455BE9425DB591D00279199 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +113,14 @@
 		0455BE9F25DB591D00279199 /* ScorchTime */ = {
 			isa = PBXGroup;
 			children = (
+				04BAAAF625DDBC3B00481C84 /* ScorchTime.entitlements */,
+				0455BEBB25DB597F00279199 /* Core Data */,
+				0455BEBA25DB597A00279199 /* Models */,
+				0455BEB925DB597000279199 /* Views */,
 				0455BEA025DB591D00279199 /* ScorchTimeApp.swift */,
 				0455BEA225DB591D00279199 /* ContentView.swift */,
 				0455BEA425DB592000279199 /* Assets.xcassets */,
-				0455BEA925DB592000279199 /* Persistence.swift */,
 				0455BEAE25DB592000279199 /* Info.plist */,
-				0455BEAB25DB592000279199 /* ScorchTime.xcdatamodeld */,
 				0455BEA625DB592000279199 /* Preview Content */,
 			);
 			path = ScorchTime;
@@ -73,6 +132,57 @@
 				0455BEA725DB592000279199 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0455BEB925DB597000279199 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0455BEDE25DC4F3500279199 /* Support Views */,
+				0455BEDD25DC4F2300279199 /* TabBar Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0455BEBA25DB597A00279199 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0455BEBB25DB597F00279199 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				04193BC425DC8CC00017298B /* Persistence */,
+				04193BC325DC8CAB0017298B /* Core Data Properties */,
+				04193BC225DC8C990017298B /* CoreData Class */,
+				0455BEAB25DB592000279199 /* ScorchTime.xcdatamodeld */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		0455BEDD25DC4F2300279199 /* TabBar Views */ = {
+			isa = PBXGroup;
+			children = (
+				0455BEBC25DB59CD00279199 /* DashboardView.swift */,
+				0455BEBF25DB59EB00279199 /* AgendaView.swift */,
+				0455BEC225DB5A1900279199 /* InvoiceView.swift */,
+				0455BEC525DB5A2000279199 /* TimerView.swift */,
+				0455BEC825DB5A2800279199 /* SettingsView.swift */,
+				0455BECB25DB5A7100279199 /* AddJobView.swift */,
+			);
+			path = "TabBar Views";
+			sourceTree = "<group>";
+		};
+		0455BEDE25DC4F3500279199 /* Support Views */ = {
+			isa = PBXGroup;
+			children = (
+				0455BEDF25DC4F8200279199 /* CreateTimerView.swift */,
+				04193BC825DD83960017298B /* PersonalInformationView.swift */,
+				04BAAAF825DFD80C00481C84 /* FinancialInformationView.swift */,
+				04D331CF25E0A7A4009BE6A4 /* PrivacyInformationView.swift */,
+			);
+			path = "Support Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +201,9 @@
 			dependencies = (
 			);
 			name = ScorchTime;
+			packageProductDependencies = (
+				0455BEB625DB594200279199 /* ElegantCalendar */,
+			);
 			productName = ScorchTime;
 			productReference = 0455BE9D25DB591D00279199 /* ScorchTime.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +231,9 @@
 				Base,
 			);
 			mainGroup = 0455BE9425DB591D00279199;
+			packageReferences = (
+				0455BEB525DB594200279199 /* XCRemoteSwiftPackageReference "ElegantCalendar" */,
+			);
 			productRefGroup = 0455BE9E25DB591D00279199 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -144,9 +260,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0455BECC25DB5A7100279199 /* AddJobView.swift in Sources */,
+				04BAAAF925DFD80C00481C84 /* FinancialInformationView.swift in Sources */,
+				04193BC025DC8C8B0017298B /* Jobs+CoreDataProperties.swift in Sources */,
 				0455BEAD25DB592000279199 /* ScorchTime.xcdatamodeld in Sources */,
+				0455BEE025DC4F8200279199 /* CreateTimerView.swift in Sources */,
+				0455BEC325DB5A1900279199 /* InvoiceView.swift in Sources */,
 				0455BEAA25DB592000279199 /* Persistence.swift in Sources */,
+				0455BEC925DB5A2800279199 /* SettingsView.swift in Sources */,
+				0455BEEB25DC537000279199 /* Timers+CoreDataProperties.swift in Sources */,
+				0455BEC025DB59EB00279199 /* AgendaView.swift in Sources */,
+				0455BEBD25DB59CD00279199 /* DashboardView.swift in Sources */,
 				0455BEA325DB591D00279199 /* ContentView.swift in Sources */,
+				0455BEEA25DC537000279199 /* Timers+CoreDataClass.swift in Sources */,
+				04193BBF25DC8C8B0017298B /* Jobs+CoreDataClass.swift in Sources */,
+				04D331D025E0A7A4009BE6A4 /* PrivacyInformationView.swift in Sources */,
+				04193BC925DD83960017298B /* PersonalInformationView.swift in Sources */,
+				0455BEC625DB5A2000279199 /* TimerView.swift in Sources */,
 				0455BEA125DB591D00279199 /* ScorchTimeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScorchTime/ScorchTime.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ScorchTime/Preview Content\"";
 				DEVELOPMENT_TEAM = V9669RC3VN;
@@ -297,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScorchTime/ScorchTime.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ScorchTime/Preview Content\"";
 				DEVELOPMENT_TEAM = V9669RC3VN;
@@ -336,6 +468,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0455BEB525DB594200279199 /* XCRemoteSwiftPackageReference "ElegantCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ThasianX/ElegantCalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0455BEB625DB594200279199 /* ElegantCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0455BEB525DB594200279199 /* XCRemoteSwiftPackageReference "ElegantCalendar" */;
+			productName = ElegantCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		0455BEAB25DB592000279199 /* ScorchTime.xcdatamodeld */ = {

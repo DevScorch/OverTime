@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Invoice" representedClassName="Invoice" syncable="YES" codeGenerationType="class">
+        <attribute name="attribute" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Jobs" representedClassName="Jobs" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Timers" representedClassName="Timers" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="job" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="bank" optional="YES" attributeType="String"/>
+        <attribute name="bankAccount" optional="YES" attributeType="String"/>
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="company" optional="YES" attributeType="String"/>
+        <attribute name="lastname" optional="YES" attributeType="String"/>
+        <attribute name="logo" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="postalCode" optional="YES" attributeType="String"/>
+        <attribute name="rate" optional="YES" attributeType="String"/>
+        <attribute name="swiftCode" optional="YES" attributeType="String"/>
+        <attribute name="vat" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Invoice" positionX="-62.06982421875" positionY="-66.47119140625" width="128" height="44"/>
+        <element name="Jobs" positionX="-54" positionY="27" width="128" height="59"/>
+        <element name="Timers" positionX="-62.87890625" positionY="60.69610595703125" width="128" height="74"/>
+        <element name="User" positionX="-63" positionY="9" width="128" height="209"/>
+    </elements>
+</model>
